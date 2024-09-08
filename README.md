@@ -19,7 +19,7 @@ This project demonstrates a system for handwritten digit recognition using three
 1. Clone this repository:
    ```bash
    git clone https://github.com/lukarecine/handwritten-digit-recognition-system.git
-   cd handwritten-digit-recognition
+   cd handwritten-digit-recognition-system
    ```
 
 2. Install the necessary dependencies:
@@ -46,17 +46,15 @@ This project demonstrates a system for handwritten digit recognition using three
 ### CNN (Convolutional Neural Network)
 - **Description**: CNN is used to extract spatial features from images using convolutional layers. It employs elastic distortion and data augmentation to improve generalization.
 - **Architecture**: Consists of convolutional, max-pooling, and dense layers with ReLU activation. Dropout regularization is used to prevent overfitting.
-- **Performance**: Achieved [mention final accuracy] accuracy on the MNIST test set.
 
 ### DNN (Deep Neural Network)
 - **Description**: DNN consists of fully connected layers. Unlike CNN, DNN lacks spatial awareness but compensates with depth and regularization techniques such as dropout.
 - **Architecture**: Multiple fully connected layers, each with ReLU activation, batch normalization, and dropout.
-- **Performance**: Achieved [mention final accuracy] accuracy on the MNIST test set.
-
+- 
 ### DBN (Deep Belief Network)
 - **Description**: DBN is a generative model pre-trained layer by layer using Restricted Boltzmann Machines (RBMs). Fine-tuning is done with backpropagation.
 - **Architecture**: Consists of stacked RBM layers followed by fine-tuning with dense layers.
-- **Performance**: Achieved [mention final accuracy] accuracy on the MNIST test set.
+
 
 ## Real-Time Recognition System
 
@@ -83,7 +81,7 @@ Each model's performance is evaluated based on:
 2. **Real-Time Recognition System**:
    The real-time digit recognition system can be started by running the `real_time_recognition.py` script:
    ```bash
-   python real_time_recognition.py
+   python digit_recognition_system.py
    ```
 
 3. **Correction Mode**:
