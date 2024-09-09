@@ -31,15 +31,6 @@ This project demonstrates a system for handwritten digit recognition using three
    The models are pre-trained on the MNIST dataset, but if you want to retrain, ensure the dataset is available or downloaded from:
    - [MNIST Dataset](http://yann.lecun.com/exdb/mnist/)
 
-## Project Structure
-
-
-├── CNN_Model.ipynb          # Implementation of the CNN model
-├── DNN_Model.ipynb          # Implementation of the DNN model
-├── DBN_Model.ipynb          # Implementation of the DBN model with RBM pretraining
-├── real_time_recognition.py  # Real-time digit recognition using Tkinter and OpenCV
-├── requirements.txt         # List of required dependencies
-├── README.md                # Project documentation
 
 ## Models Used
 
